@@ -1,0 +1,26 @@
+{
+  "data":[
+    {
+      "id":1,
+      "book_title":"大象和小象是朋友",
+      "book_img":"datalist_02.png",
+      "book_desc":"这是一本适合小孩的故事绘本 是小孩的好老师 适合0-3岁孩子读书",
+      "book_money":"200.00",
+      "book_nums":"520"
+    },{
+      "id":2,
+      "book_title":"大象和小象是朋友",
+      "book_img":"datalist_02.png",
+      "book_desc":"这是一本适合小孩的故事绘本 是小孩的好老师 适合0-3岁孩子读书",
+      "book_money":"500.00",
+      "book_nums":"340"
+    },{
+      "id":3,
+      "book_title":"大象和小象是朋友",
+      "book_img":"datalist_02.png",
+      "book_desc":"这是一本适合小孩的故事绘本 是小孩的好老师 适合0-3岁孩子读书",
+      "book_money":"100.00",
+      "book_nums":"220"
+    }
+  ]
+}

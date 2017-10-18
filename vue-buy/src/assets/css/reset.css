@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+html{font-size: 100px; }
+a{ color:#000; text-decoration:none;}
+.users_list,ol{ list-style:none;}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;}
+.clearfix:after{ clear:both; display:block; content:'';}
+.clearfix{ zoom:1;}
+body,div,p,h1,h2,h3,h4,h5,h6,span,.users_list,ol,li,dl,dd,dt,a,i,strong,b,em img,form,input{ margin:0; padding:0; }
+li,ol li{ list-style-type:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+a{text-decoration:none; }
+img,input,select{ vertical-align:top; resize:none;}
+a img{ border:none;}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;}
+.fl{ float:left; }
+.fr{ float:right;}
+input{ padding:0; border:none 0; outline:none; background:none;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0)}
+table{ border-collapse:collapse;text-align:center; vertical-align:middle;}
+body{
+	font-size:12px;
+}
+body{
+	margin: 0;
+	/*如果加上如下代码：会导致safari浏览器等手机端 的 input无法录入问题*/
+	/*-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;*/
+}
+body *{
+	font-family: Helvetica;/*移动端所有手机机型都支持的字体*/
+}
+/*手机横竖屏切换的时候 字体大小的改变*/
+body{
+	-webkit-text-size-adjust: 100%;
+}
+/*去掉点击时出现的背景色*/
+a,input,button{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*IOS下的问题：移动端真机上会将按钮的直角变成圆角*/
+input,button{
+	-webkit-appearance:none;/*单写这句不会真的将圆角全部清除，只会将圆角值减小*/
+	border-radius:0;/*单写这句不会起作用*/
+}
+html{
+	-webkit-text-size-adjust:none;
+}

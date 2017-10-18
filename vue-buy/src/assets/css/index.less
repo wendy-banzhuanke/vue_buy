@@ -1,0 +1,93 @@
+body{
+  width: 100%;
+}
+.box-sizing(){box-sizing:border-box;}/*怪异盒模型*/
+
+#learnPlan{
+  margin: 0 auto;
+  width: 800px;
+  .add-plan-text{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 0;
+    background-color: #d5c85e;
+      input{
+        .box-sizing();
+        width: 798px;
+        height: 40px;
+        line-height:40px;
+        border: 1px solid #f6f6f6;
+        padding: 0 10px;
+        font-size: 16px;
+        color: #666;
+        letter-spacing: 1px;
+      }
+  }
+  .main{
+    .btn-wrap{
+      text-align: right;
+     a{
+       display: inline-block;
+       width: 100px;
+       height: 40px;
+       line-height: 40px;
+       text-align: center;
+       color: #ff8000;
+       font-size: 20px;
+       border: 1px solid #ff8000;
+       margin-left: 10px;
+     }
+    }
+    .data-list{
+      margin-top: 40px;
+      border:1px solid #ccc;
+      border-color: #ccc transparent #ccc transparent ;
+      li{
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+        &:nth-of-type(even){
+          background-color: #f1f1f1;
+        }
+        &:nth-of-type(odd){
+          background-color: #fff;
+        }
+        a{
+          display: block;
+          height: 40px;
+          width: 40px;
+          .icon{
+            display: inline-block;
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .check-radio-btn{
+          float: left;
+          .icon{
+            border-radius: 50%;
+            border: 1px solid #c8c8c8;
+          }
+        }
+        .delete-radio-btn{
+          float: right;
+          .icon{
+
+            border: 1px solid #c8c8c8;
+          }
+        }
+        .content{
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 660px;
+          display: inline-block;
+        }
+      }
+      li.active .check-radio-btn .icon{
+        background-color: #d5c85e;
+      }
+    }
+  }
+}
