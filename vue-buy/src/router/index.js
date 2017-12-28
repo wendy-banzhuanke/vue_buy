@@ -13,6 +13,7 @@ import "../../static/js/resizeFontSize.js";
 import "../../static/js/swiper.min.js";
 
 import "../assets/css/app.css";
+
 import "../assets/css/picturebook.less";
 
 const router = new VueRouter({
