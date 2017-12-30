@@ -13,4 +13,4 @@ var vm = new Vue({
   components: { App }
 });
 console.log(vm);
-console.log(vm,"测试冲突一，测试人Wendy");
+console.log(vm,"测试冲突一，测试人Wendy的帕克");
